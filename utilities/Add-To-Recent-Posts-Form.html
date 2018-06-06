@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+
+<head>
+  <!-- MustacheJS Import -->
+  <script type="text/javascript" src="../mustache-templates/mustache.js"></script>
+  <script type="text/javascript" src="../mustache-templates/recent-posts-left-side-bar.js"></script>
+</head>
+
+<body onload="gatherView()">
+
+  <h2>Add a Recent Post To Top of Sidebar Widget Form</h2>
+
+  <form>
+    Most Recent Post Title:
+    <br>
+    <input id="title" type="text" name="title" value="" placeholder="Most Recent Post Title" size="40">
+    <br> Most Recent Post Date:
+    <br>
+    <input id="date" type="text" name="date" value="" placeholder="Date Format Example: September 30, 2018" size="40">
+    <br>
+    <br>
+    <input type="button" id="submit-button" onclick="updateValues(this.form.title.value, this.form.date.value)" value="Submit"
+    />
+  </form>
+
+
+
+  <h2>Before Update -- Widget Post Values</h2>
+  <div id="current-view" style="border-style: solid;">
+  </div>
+
+  <h2> After Update -- Widget Post Values </h2>
+  <div id="updated-view"></div>
+
+</body>
+
+</html>
