@@ -1,0 +1,35 @@
+{
+  "name": "suddenlysima_revision_2",
+  "version": "1.0.0",
+  "description": "Suddenly Sima Blog",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^5.0.4"
+  },
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoPatWa/suddenly-sima-updated.git"
+  },
+  "keywords": [
+    "sima",
+    "blog",
+    "suddenly",
+    "sima",
+    "travel",
+    "beauty",
+    "fashion",
+    "do-it-yourself"
+  ],
+  "author": "Jonathan Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoPatWa/suddenly-sima-updated/issues"
+  },
+  "homepage": "https://github.com/JoPatWa/suddenly-sima-updated#readme"
+}
