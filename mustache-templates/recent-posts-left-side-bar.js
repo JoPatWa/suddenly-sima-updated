@@ -1,3 +1,18 @@
+// import firebase from "../node_modules/firebase";
+// var firebase = require('../node_modules/firebase');
+
+
+// // Initialize Firebase
+
+// var config = {
+//     apiKey: "AIzaSyD3OrO0qJTr9sMp1YlUCFj1QwEVi7r_DEE",
+//     authDomain: "suddenlysimablog.firebaseapp.com",
+//     databaseURL: "https://suddenlysimablog.firebaseio.com/",
+//     storageBucket: "gs://suddenlysimablog.appspot.com",
+//   };
+//   firebase.initializeApp(config);
+  
+//   console.log(firebase.database());
 
 var view = {
     firstPost: {

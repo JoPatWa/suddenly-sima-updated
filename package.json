@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Suddenly Sima Blog",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "firebase": "^5.0.4"
+  },
   "devDependencies": {
     "mustache": "^2.3.0"
   },
