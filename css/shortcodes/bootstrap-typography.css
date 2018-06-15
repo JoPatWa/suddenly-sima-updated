@@ -156,3 +156,9 @@ del, mark { background: #84ba3f; color: #ffffff; padding: 0 5px; margin-right: 3
 select.form-control-sm:not([size]):not([multiple]) { height: calc(1.8125rem + 22px); }
 .dataTables_length .form-control { padding: 15px 8px 15px 20px; }
 div.dataTables_wrapper div.dataTables_paginate, div.dataTables_wrapper div.dataTables_info { margin-top: 15px; }
+
+ /*************************
+       blog post text
+*************************/ 
+
+.blog-post-text {line-height: 2.3em;}
