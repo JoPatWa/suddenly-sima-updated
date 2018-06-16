@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="This is a Travel, Beauty (African beauty), and Fashion blog. I am also passionate about DIY so I occasionally post do-it-yourself projects.">
+
+    <meta name="description" content="There’s so much to life. Things that we hold in our heart dearly and not all of them we are able to label one by one, from everyday life, special moments, cultures, food, and friendship.">
     <meta name="author" content="Sima" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Suddenly Sima - DIY and Just For Fun</title>
+    <title>Suddenly Sima - DIY and Just For Fun Blog</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./favicomatic/apple-touch-icon-120x120.png" />
@@ -33,16 +34,35 @@
     <!-- Style customizer -->
     <link rel="stylesheet" type="text/css" href="css/skins/skin-default.css" data-style="styles">
     <link rel="stylesheet" type="text/css" href="css/style-customizer.css">
+
+    <script type="text/javascript" src="./templates/footerMainFolder.js"></script>
+
+    <style type="text/css" id="#jarallax-clip-0">
+        #jarallax-container-0 {
+            clip: rect(0 478px 342px 0);
+            clip: rect(0, 478px, 342px, 0);
+        }
+    </style>
 </head>
 
 
-<body class="wide-layout" cz-shortcut-listen="true">
+<body class="wide-layout" cz-shortcut-listen="true" onload="loadFooter();">
 
     <div class="wrapper">
+
+        <!--============= preloader -->
+
         <div id="pre-loader">
             <img src="images/pre-loader/loader-01.svg" alt="">
         </div>
+
+        <!--============= preloader -->
+
+
+
         <!--====================== header -->
+
+
         <header id="header" class="header dark">
 
             <!--================================= mega menu -->
@@ -51,7 +71,7 @@
                 <!-- menu start -->
                 <nav id="menu" class="mega-menu">
                     <!-- menu list items container -->
-                    <section class="menu-list-items" style="height: 115px;">
+                    <section class="menu-list-items">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12">
@@ -60,26 +80,22 @@
                                         <li>
                                             <a href="index.html">
                                                 <img id="logo_img" src="images/ss/transparent_background.png" alt="logo"> </a>
-                                            <div class="menu-mobile-collapse-trigger">
-                                                <span></span>
-                                            </div>
                                         </li>
                                     </ul>
                                     <!-- menu links -->
                                     <div class="menu-bar">
-                                        <ul class="menu-links" style="max-height: 400px; display: none;">
+                                        <ul class="menu-links">
                                             <li>
                                                 <a href="index.html">Home
                                                     <i class="fa"></i>
                                                 </a>
                                             </li>
-                                            <li class="hoverTrigger active">
+                                            <li class="active">
                                                 <a href="blog.html">blog
                                                     <i class="fa fa-angle-down fa-indicator"></i>
-                                                    <div class="mobileTriggerButton"></div>
                                                 </a>
                                                 <!-- drop down multilevel  -->
-                                                <ul class="drop-down-multilevel effect-expand-top" style="transition: all 400ms ease 0s;">
+                                                <ul class="drop-down-multilevel">
                                                     <li>
                                                         <a href="travel-blog-main.html">Travel
                                                             <i class="fa-indicator"></i>
@@ -100,13 +116,12 @@
                                                             <i class="fa-indicator"></i>
                                                         </a>
                                                     </li>
-                                                    <li class="hoverTrigger">
+                                                    <li>
                                                         <a href="more-blog-main.html">More
                                                             <i class="ti-plus fa-indicator"></i>
-                                                            <div class="mobileTriggerButton"></div>
                                                         </a>
                                                         <!-- drop down second level -->
-                                                        <ul class="drop-down-multilevel effect-expand-top" style="transition: all 400ms ease 0s;">
+                                                        <ul class="drop-down-multilevel">
                                                             <li>
                                                                 <a href="diy-blog-main.html"> DIY </a>
                                                             </li>
@@ -117,13 +132,12 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="hoverTrigger">
+                                            <li>
                                                 <a href="about.html"> About
                                                     <i class="fa fa-angle-down fa-indicator"></i>
-                                                    <div class="mobileTriggerButton"></div>
                                                 </a>
                                                 <!-- drop down full width -->
-                                                <ul class="drop-down-multilevel effect-expand-top" style="transition: all 400ms ease 0s;">
+                                                <ul class="drop-down-multilevel">
                                                     <li>
                                                         <a href="my-story-page.html">My Story
                                                             <i class="fa-indicator"></i>
@@ -156,64 +170,107 @@
                 <!-- menu end -->
             </div>
         </header>
+
+        <section class="page-sidebar page-section-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="sidebar-widget">
+                            <div class="social-icons medium color clearfix">
+                                <ul>
+                                    <li class="social-facebook">
+                                        <a href="https://www.facebook.com/SuddenlySima/">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-twitter">
+                                        <a href="https://twitter.com/suddenlysima">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-youtube">
+                                        <a href="https://www.youtube.com/channel/UCmpQVCfoXPYXA7Fw3Am41bA">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-instagram">
+                                        <a href="https://www.instagram.com/suddenlysima/">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-pinterest">
+                                        <a href="https://www.pinterest.com/suddenlysima/">
+                                            <i class="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="bg bg-09 fadeInLeftBig wow my-3" style="visibility: visible; animation-name: fadeInLeftBig;">
+                                    <h4 class="text-white text-center">Welcome!</h4>
+                                    <p class="text-white">Somtimes I feel like writing on topics that don't relate direclty to beauty or fashion. So this section of my website is just for that. I emjoy posting DIY tutorials and I also have a section for random topcis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-9 col-md-8 page-content">
+                        <div class="isotope full-screen columns-2" style="position: relative; height: 1459.33px;">
+                            <div class="grid-item leadership design development" style="position: absolute; left: 0px; top: 0px;">
+                                <div class="team team-overlay">
+                                    <div class="team-photo">
+                                        <img class="img-fluid mx-auto border border-primary" src="images/ss/diy-blog-main.jpg" alt="Do It Yourself, Tape, Scissors">
+                                    </div>
+                                    <div class="team-description">
+                                        <div class="team-info">
+                                            <h5>
+                                                <a href="diy-blog-main.html" class="text-white">DIY</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-item design" style="position: absolute; left: 381px; top: 0px;">
+                                <div class="team team-overlay">
+                                    <div class="team-photo">
+                                        <img class="img-fluid mx-auto border border-primary" img alt="Sima In Red Jacket At Tree" src="images/ss/photo-gallery-image-002.jpeg">
+                                    </div>
+                                    <div class="team-description">
+                                        <div class="team-info">
+                                            <h5>
+                                                <a href="beauty-blog-main.html" class="text-white">Just For Fun</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--================================ content box -->
+
+
+
         <!--=================================
- header -->
-        <!--=================================
-   Main Content -->
+   footer -->
 
-   <section class="action-box theme-bg full-width">
-    <div class="container">
-      <div class="row">
-       <div class="col-lg-12 col-md-12">
-         <div class="action-box-text">
-          <h3><strong>DIY and Just For Fun Blog Main: </strong>Page Coming Soon</h3>
-        </div>
-        <div class="action-box-button">
-          <a class="button button-border white" href="index.html">
-            <span>Back To Home Page</span>
-            <i class="fa fa-download"></i>
-         </a> 
-       </div>
-      </div>
-    </div>
-   </div>
-  </section>
+<div id="footer"></div>
 
-  <footer class="footer footer-topbar black-bg">
-    <div class="copyright">
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-6">
-    <img class="img-fluid mb-10" id="logo-footer" src="images/ss/transparent_background.png" alt="Suddenly Sima Logo">
-          <div class="footer-text">
-             <p> ©Copyright <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>2018</span> <a href="www.suddenlysima.com"> Suddenly Sima </a> All Rights Reserved </p>
-          </div>
-      </div>
-      <div class="col-lg-6">
-      <div class="footer-social">
-          <ul class="text-left text-lg-right">
-             <li class="list-inline-item"><a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;|</li>
-             <li class="list-inline-item"><a href="blog.html">Blog</a> &nbsp;&nbsp;&nbsp;|</li>
-             <li class="list-inline-item"><a href="about.html">About </a> </li>
-          </ul></div>
-        <div class="social-icons color-hover text-left text-lg-right mt-20">
-             <ul class="clearfix"> 
-              <li class="social-facebook"><a href="https://www.facebook.com/SuddenlySima/"><i class="fa fa-facebook"></i></a></li>
-              <li class="social-twitter"><a href="https://twitter.com/suddenlysima"><i class="fa fa-twitter"></i></a></li>
-              <li class="social-linkedin"><a href="https://www.pinterest.com/suddenlysima/"><i class="fa fa-pinterest"></i> </a></li>
-             </ul>
-           </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    </footer>
+    <!--=================================
+   footer -->
 
     </div>
 
+    <!--=================================
+   style-customizer -->
 
-
-    <div id="back-to-top">
+    <div id="back-to-top" style="">
         <a class="top arrow" href="#top">
             <i class="fa fa-angle-up"></i>
             <span>TOP</span>
@@ -221,7 +278,7 @@
     </div>
 
     <!--=================================
- jquery -->
+   jquery -->
 
     <!-- jquery -->
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -230,13 +287,15 @@
     <script src="js/plugins-jquery.js"></script>
 
     <!-- plugin_path -->
-    <script>var plugin_path = '/js/';</script>
+    <script>var plugin_path = 'js/';</script>
 
     <!-- custom -->
     <script src="js/custom.js"></script>
 
-
-
+    <!-- Below code is not part of template -->
+    <script type="text/javascript" src="js/mega-menu/mega_menu.js"></script>
+    <script type="text/javascript" src="js/nicescroll/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/isotope/isotope.pkgd.min.js"></script>
 </body>
 
 </html>
