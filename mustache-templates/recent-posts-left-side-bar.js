@@ -16,7 +16,7 @@ var view = {
     thirdPost: {
         title: "How To Beat The Winter Blues",
         date: "December 6th 2017",
-        image: "./images/ss/winter-blues-latest-post.JPG",
+        image: "./images/ss/winter-blues-latest-post.jpg",
         alt: "beat the winter blues",
         link: "./blog-posts/how-to-beat-the-winter-blues-post.html"
     }
