@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /beauty-blog.html
+Disallow: /tag-html-pages/images/
+Disallow: /demo-specialty-pages/
+Disallow: /tag-html-pages/
